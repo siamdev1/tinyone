@@ -137,7 +137,7 @@
    
 
 }
-    
+     
 
 
 
@@ -223,13 +223,16 @@ footer{
 }
 .footer_email_sub input[type=email] {
     width: 580px;
-    height: 50px;
+    height: 46px;
     border-radius: 10px;
     font-size: 16px;
     font-family: var(--ffamily);
     font-weight: 400;
     padding-left: 15px;
     border: none;
+}
+.footer_email_sub input{
+   outline: none;
 }
 .footer_email_sub input::placeholder{
     font-size: 16px;
@@ -383,8 +386,12 @@ footer{
 .slick-track{
     height: 385px;
 }
+.slick-dots li{
+    font-size: 0px;
+}
 .slick-dots li button {
 	background-color: #fFF;
+    color: #fFF;
 	border: none;
 	font-size: 0px;
 	height: 15px !important;
