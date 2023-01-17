@@ -323,9 +323,9 @@ footer{
     height: 40px;
     background: #1b1b1b;
 }
-.copyright span p{
-    color: #f1f1f1;
-    padding: 06px 0 0 0;
+.copyright p{
+    color: #f1f1f1 !important;
+    padding: 6px 0 0 0;
    
 }
 
